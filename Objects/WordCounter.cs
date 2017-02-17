@@ -15,7 +15,7 @@ namespace WordCountApp.Objects
 
         public string GetSentence()
         {
-            return "blah";
+            return _userString;
         }
     }
 }
