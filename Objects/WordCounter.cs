@@ -16,6 +16,7 @@ namespace WordCountApp.Objects
             _userString = userSentence;
             _userWord = userWord;
             _userSentenceArray = userSentence.Split(' ');
+            _wordCount = RepeatCounter();
         }
 
         public int RepeatCounter()
