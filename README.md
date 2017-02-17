@@ -1,3 +1,9 @@
+#Word Counter
+**C# second week Friday code review for Epicodus, 02.17.17**
+###By Kory Skarbek
+##Description
+The program will let input two things; search sentence and search word. The program will then tell you how many times the search word appears in the search sentence
+
 ##Specs
 
 search string = input 1, search word = input 2
@@ -33,3 +39,19 @@ The program will
 The program will
 * **Input:**
 * **Output:**
+
+##Setup
+Open up the terminal.
+Clone this repository.
+Compile program
+Go to localhost:5004
+
+##Technologies Used
+C#
+HTML
+CSS
+Bootstrap
+
+##Legal
+Copyright(c) 2017 Kory Skarbek
+This software is licensed under the MIT license.
