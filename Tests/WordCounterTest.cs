@@ -55,5 +55,21 @@ namespace WordCountTestApp
             Assert.Equal(userStringArray, newWordCount.GetUserSentenceArray());
 
         }
+
+        //This will test to make sure we are splitting up the user string into an array of single word strings
+        [Fact]
+        public void GetWordCount_CompareSplitUserInputStringToUserWord_True()
+        {
+            // Arrange
+            string userString = "The Atlanta Braves will win the World Series this year";
+            string userWord = "win";
+
+            // Act
+            WordCount newWordCount = new WordCount(userString, userWord);
+
+            // Assert
+            Assert.Equal(true, newWordCount.LocateUserWord());
+
+        }
     }
 }

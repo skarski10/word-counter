@@ -30,5 +30,17 @@ namespace WordCountApp.Objects
         {
             return _userSentenceArray;
         }
+
+        public bool LocateUserWord()
+        {
+            foreach (string word in _userSentenceArray)
+            {
+                if(word == _userWord)
+                {
+                    return false;
+                }
+            }
+            return false;
+        }
     }
 }
