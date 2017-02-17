@@ -25,12 +25,10 @@ namespace WordCountApp.Objects
         {
             return _userWord;
         }
-        public string[] blah = {"blah"};
 
         public string[] GetUserSentenceArray()
         {
-            // return _userSentenceArray;
-            return blah;
+            return _userSentenceArray;
         }
     }
 }
