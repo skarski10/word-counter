@@ -7,15 +7,21 @@ namespace WordCountApp.Objects
     public class WordCount
     {
         private string _userString;
+        private string _userWord;
 
-        public WordCount(string userSentence)
+        public WordCount(string userSentence, string userWord)
         {
             _userString = userSentence;
+            _userWord = userWord;
         }
 
-        public string GetSentence()
+        public string GetUserSentence()
         {
             return _userString;
+        }
+        public string GetUserWord()
+        {
+            return "blah";
         }
     }
 }
