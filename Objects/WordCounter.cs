@@ -28,7 +28,7 @@ namespace WordCountApp.Objects
                     _wordCount++;
                 }
             }
-            return 0;
+            return _wordCount;
         }
 
         public string GetUserSentence()

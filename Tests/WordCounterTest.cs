@@ -75,7 +75,6 @@ namespace WordCountTestApp
         {
             // Arrange
             string userString = "The Atlanta Braves will win the World Series this year";
-            // string userString = "win Atlanta win win win Braves";
             string userWord = "win";
             string[] userStringArray = { "The", "Atlanta", "Braves", "will", "win", "the", "World", "Series", "this", "year" };
             int wordCount = 1;
