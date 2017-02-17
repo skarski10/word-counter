@@ -8,11 +8,13 @@ namespace WordCountApp.Objects
     {
         private string _userString;
         private string _userWord;
+        private string[] _userSentenceArray;
 
         public WordCount(string userSentence, string userWord)
         {
             _userString = userSentence;
             _userWord = userWord;
+            _userSentenceArray = userSentence.Split(' ');
         }
 
         public string GetUserSentence()
@@ -22,6 +24,13 @@ namespace WordCountApp.Objects
         public string GetUserWord()
         {
             return _userWord;
+        }
+        public string[] blah = {"blah"};
+
+        public string[] GetUserSentenceArray()
+        {
+            // return _userSentenceArray;
+            return blah;
         }
     }
 }
