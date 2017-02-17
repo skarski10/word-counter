@@ -21,7 +21,7 @@ namespace WordCountApp.Objects
         }
         public string GetUserWord()
         {
-            return "blah";
+            return _userWord;
         }
     }
 }
