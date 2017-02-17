@@ -12,7 +12,7 @@ namespace WordCountTestApp
         public void GetWordCount_ReturnsInputString_InputString()
         {
             // Arrange
-            string userString = "The Atlanta Braves will win the World Series this year";
+            string userString = "The Atlanta Braves will win the World Series this year"; //a man can dream right?
             string userWord = "win";
 
             // Act
